@@ -7,3 +7,27 @@ h1{font-size:3rem}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
 .card{background:#fff;padding:20px;border-radius:15px;box-shadow:0 10px 20px rgba(0,0,0,.1)}
 footer{text-align:center;padding:30px;background:#2e4d3d;color:#fff}
+.progress{
+    width:100%;
+    height:12px;
+    background:#ddd;
+    border-radius:20px;
+    margin:25px 0;
+}
+
+.progress-bar{
+    height:100%;
+    width:7%;
+    background:#5c8c63;
+    border-radius:20px;
+}
+
+.answer{
+    cursor:pointer;
+    transition:.3s;
+}
+
+.answer:hover{
+    transform:translateY(-5px);
+    border:2px solid #5c8c63;
+}
